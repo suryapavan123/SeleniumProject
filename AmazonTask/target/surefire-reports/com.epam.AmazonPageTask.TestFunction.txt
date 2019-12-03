@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.AmazonPageTask.TestFunction
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.066 s <<< FAILURE! - in com.epam.AmazonPageTask.TestFunction
+Scenario1Test(com.epam.AmazonPageTask.TestFunction)  Time elapsed: 2.159 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: was killed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\sravanthi_rudhru\Desktop\chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'EPINHYDW0274', ip: '10.240.8.208', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_151'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0125A923+1550627]
+	Ordinal0 [0x011DA731+1025841]
+	Ordinal0 [0x0115C715+509717]
+	Ordinal0 [0x010ECB0B+51979]
+	Ordinal0 [0x0110ACE7+175335]
+	Ordinal0 [0x0110A8ED+174317]
+	Ordinal0 [0x01108CDB+167131]
+	Ordinal0 [0x010F144A+70730]
+	Ordinal0 [0x010F24D0+74960]
+	Ordinal0 [0x010F2469+74857]
+	Ordinal0 [0x011F42F7+1131255]
+	GetHandleVerifier [0x012F711D+523789]
+	GetHandleVerifier [0x012F6EB0+523168]
+	GetHandleVerifier [0x012FE207+552695]
+	GetHandleVerifier [0x012F791A+525834]
+	Ordinal0 [0x011EB82C+1095724]
+	Ordinal0 [0x011F636B+1139563]
+	Ordinal0 [0x011F64D3+1139923]
+	Ordinal0 [0x011F5455+1135701]
+	BaseThreadInitThunk [0x75DC343D+18]
+	RtlInitializeExceptionChain [0x77709802+99]
+	RtlInitializeExceptionChain [0x777097D5+54]
+
+	at com.epam.AmazonPageTask.TestFunction.Scenario1Test(TestFunction.java:35)
+
+Scenario2Test(com.epam.AmazonPageTask.TestFunction)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.epam.AmazonPageTask.TestFunction.Scenario2Test(TestFunction.java:50)
+
+Scenario4Test(com.epam.AmazonPageTask.TestFunction)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.epam.AmazonPageTask.TestFunction.Scenario4Test(TestFunction.java:58)
+

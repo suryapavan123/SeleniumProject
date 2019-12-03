@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.epam.AmazonPageTask.TestFunction">
+        <methods>
+          <include name="Scenario4Test"/>
+          <include name="Scenario2Test"/>
+          <include name="Scenario1Test"/>
+        </methods>
+      </class> <!-- com.epam.AmazonPageTask.TestFunction -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
